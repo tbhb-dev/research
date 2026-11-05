@@ -5,3 +5,7 @@ gitleaks
 prek
 tbhb
 tailnet
+afakt
+afenc
+avirt
+awrel
