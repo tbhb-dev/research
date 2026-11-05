@@ -10,7 +10,7 @@ This is tbhb-dev/research, the public repository of research reports for tbhb-de
 
 ## Writing a report
 
-Put each report in its own directory, `reports/r-N-<slug>/`, with the report in `REPORT.md`. The number comes from this repository's own counter, R-1, R-2, and so on. @tbhb assigns the number, so don't pick one yourself.
+Put each report in its own directory, `research/<ns>/r-NNNNNN-<slug>/`, with the report in `REPORT.md`. `<ns>` is the project the report serves, or `_` for general work. Each namespace runs its own six-digit sequence, and the report's ID is `<ns>/R-NNNNNN`, such as `_/R-000001`, the same in frontmatter `id` and in prose. @tbhb assigns the number, so don't pick one yourself.
 
 - Preserve source provenance, uncertainty, and historical qualifications.
 - Research informs design, and the repository a decision concerns records it. Don't edit another repository's documentation from here.
@@ -18,7 +18,7 @@ Put each report in its own directory, `reports/r-N-<slug>/`, with the report in 
 
 ## Commits and pull requests
 
-- Branch first, as `research/r-N-<slug>`. Every change lands through a pull request.
+- Branch first, as `research/<ns>/r-NNNNNN-<slug>`. Every change lands through a pull request.
 - Use Conventional Commits and a plain `git commit`, without `Signed-off-by` or `Co-authored-by`, and fill every section of `.github/PULL_REQUEST_TEMPLATE.md`.
 
 ## Checks

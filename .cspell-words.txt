@@ -1,5 +1,8 @@
+afakt
+afenc
 akia
 ascm
+avirt
 awrel
 bazelignore
 bazelisk

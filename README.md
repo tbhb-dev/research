@@ -4,7 +4,7 @@ This public repository holds research reports for tbhb-dev work. A report gather
 
 ## Layout
 
-Each report is a directory under `reports/`, named `r-N-<slug>`. Its main document is `REPORT.md`, and its sources go in the same directory.
+Each report is a directory `research/<ns>/r-NNNNNN-<slug>/`, in the namespace of the project it serves, or `_` for general work. Each namespace numbers its own reports. Its main document is `REPORT.md`, and its sources go in the same directory.
 
 ## Workflow
 

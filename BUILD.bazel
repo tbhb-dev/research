@@ -99,7 +99,7 @@ repo_layout_test(
         ".github",
         ".vale",
         "LICENSES",
-        "reports",
+        "research",
     ],
 )
 
