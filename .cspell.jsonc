@@ -10,8 +10,7 @@
     "coverage.xml",
     "MODULE.bazel.lock",
     "mise.lock",
-    "tmp/**/*",
-    "uv.lock"
+    "tmp/**/*"
   ],
   "dictionaryDefinitions": [
     {
