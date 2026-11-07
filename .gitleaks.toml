@@ -157,7 +157,7 @@ regexTarget = "line"
 regexes = ['''"AWREL_CONNECT_TOKEN_FILE": "\$\{HOME\}/\.config/awrel/prd-connect-token"''']
 
 [[rules.allowlists]]
-description = "tools/interim/agent_identity.py, a verbatim copy of ascm's script, falls back to Codex's default home directory; the line names a directory, not a credential"
+description = "tools/interim/agent_identity.py, a copy of ascm's script deleted since, falls back to Codex's default home directory; the line names a directory, not a credential, and the history scan still reads it in earlier commits"
 condition = "AND"
 paths = ['''^tools/interim/agent_identity\.py$''']
 regexTarget = "line"
