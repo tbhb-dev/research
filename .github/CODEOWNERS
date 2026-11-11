@@ -1,1 +1,4 @@
-* @tbhb
+# This file requests no reviewer on purpose. The single `*` line names no
+# owner, so no path auto-requests anyone (Decisions overnight-batch,
+# entry on CODEOWNERS, 2026-11-11).
+*
